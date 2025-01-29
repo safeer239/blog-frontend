@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: "Quicksand", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name */
+ /* <weight>: Use a value from 300 to 700 */
