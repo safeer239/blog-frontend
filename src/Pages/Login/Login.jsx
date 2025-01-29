@@ -28,6 +28,7 @@ function Login() {
           localStorage.setItem("user", JSON.stringify(data)); // Store user data in localStorage
           localStorage.setItem("isLogged", true);
           navigate("/"); // Redirect to home page
+          window.location.reload();
         } else {
           setMessage("Incorrect email or password. Please try again.");
         }
